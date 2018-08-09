@@ -1,0 +1,4 @@
+:root{
+	--green:#4cd964;
+	}
+li[v-cloak],div[v-cloak],span[v-cloak],ul[v-cloak],ol[v-cloak]{display:none !important;}	
