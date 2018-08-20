@@ -1,6 +1,6 @@
 /*
 我是用有道云记录的。
-有道云地址： http://note.youdao.com/noteshare?id=47cbc8aeec293f01aed7866dadf503d4&sub=C8E0E98DE0CC462D949AB8EAD762E4C5
+有道云地址： http://note.youdao.com/noteshare?id=47cbc8aeec293f01aed7866dadf503d4&sub=C8E0E98DE0CC462D949AB8EAD762E4C5d'd
 */
 # ES5核心技巧
 ### 1. this的理解
