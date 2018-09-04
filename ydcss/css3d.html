@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
     <title>CSS3D小方块</title>
     <link rel="stylesheet" href="../css/reset.css">
     <style>
-        #wrap{
+        #wrap {
             width: 200px;
             height: 200px;
             /* background: #000; */
@@ -18,7 +19,8 @@
             transform-style: preserve-3d;
             animation: demo ease-in-out 3s infinite;
         }
-        #wrap>div{
+
+        #wrap>div {
             position: absolute;
             width: 100%;
             height: 100%;
@@ -28,11 +30,13 @@
             top: 0;
             left: 0;
         }
+
         #div1 {
             transform: translateZ(-200px) rotateY(-90deg);
             transform-origin: 0 center;
             background: cadetblue;
         }
+
         #div2 {
             transform: translateZ(-200px) rotateY(90deg);
             transform-origin: 100% center;
@@ -53,34 +57,40 @@
 
         #div5 {
             transform: translateZ(-200px) rotateY(180deg);
-            background:  firebrick;
+            background: firebrick;
         }
 
         #div6 {
-            background:  forestgreen;
+            background: forestgreen;
         }
-        @keyframes demo{
-            from,to{}
-                15%{
-                    transform: rotateX(30deg) rotateY(40deg) ;
-                }
-               30%{
-                   transform: rotateX(300deg) rotateY(200deg) ;
-               }
-               100%{transform: rotateX(-100deg) rotateY(-200deg) ;}
+
+        @keyframes demo {
+            from,
+            to {}
+            15% {
+                transform: rotateX(30deg) rotateY(40deg);
+            }
+            30% {
+                transform: rotateX(300deg) rotateY(200deg);
+            }
+            100% {
+                transform: rotateX(-100deg) rotateY(-200deg);
+            }
 
         }
     </style>
 </head>
+
 <body>
 
-<div id="wrap">
-    <div id="div1">A2</div>
-    <div id="div2">B2</div>
-    <div id="div3">C2</div>
-    <div id="div4">D2</div>
-    <div id="div5">E2</div>
-    <div id="div6">F2</div>
-</div>
+    <div id="wrap">
+        <div id="div1">A2</div>
+        <div id="div2">B2</div>
+        <div id="div3">C2</div>
+        <div id="div4">D2</div>
+        <div id="div5">E2</div>
+        <div id="div6">F2</div>
+    </div>
 </body>
+
 </html>
