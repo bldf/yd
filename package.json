@@ -1,0 +1,22 @@
+{
+  "name": "yd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bldf/yd.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bldf/yd/issues"
+  },
+  "homepage": "https://github.com/bldf/yd#readme",
+  "devDependencies": {
+    "karma": "^3.0.0"
+  }
+}
