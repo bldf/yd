@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "karma init",
+    "unit": "karma start"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,13 @@
   },
   "homepage": "https://github.com/bldf/yd#readme",
   "devDependencies": {
-    "karma": "^3.0.0"
+    "jasmine": "^3.2.0",
+    "jasmine-core": "^3.2.1",
+    "karma": "^3.0.0",
+    "karma-jasmine": "^1.1.2",
+    "karma-phantomjs-launcher": "^1.0.4"
+  },
+  "dependencies": {
+    "phantom": "^6.0.3"
   }
 }
