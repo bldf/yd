@@ -10,9 +10,9 @@ describe('测试断言库jasmine api',function(){
 
     });
 
-    it('测试checkType是否能返回正确的值',function(){
-       expect(checkType({})).toBe('object');
-    });
+    // it('测试checkType是否能返回正确的值',function(){
+    //    expect(checkType({})).toBe('object');
+    // });
     it("测试获取假数据是否正常", function() {
         var obj = getTestData({
             obj:{

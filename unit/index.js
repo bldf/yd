@@ -1,5 +1,10 @@
 function test(num) {
-    return num + 1;
+    if(num === 1){
+        return 1 ;
+    }else{
+        return num +1 ;
+    }
+
 }
 /**
  * a :要判断的参数类型
